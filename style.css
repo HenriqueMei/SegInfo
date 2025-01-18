@@ -42,19 +42,30 @@ h2 {
   border-radius: 5px;
 }
 
-.ebook a {
+.ebook .download-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ebook .download-box:hover {
+  background-color: #32a852;
+  transform: scale(1.1);
+}
+
+.ebook .download-box a {
   color: #32a852;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  padding: 5px 10px;
-  border-radius: 3px;
+  transition: color 0.3s ease;
 }
 
-.ebook a:hover {
-  background-color: #32a852;
+.ebook .download-box:hover a {
   color: #121212;
-  transform: scale(1.1);
   text-decoration: none;
 }
 
