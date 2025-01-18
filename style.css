@@ -1,81 +1,92 @@
 /* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  header {
-    background-color: #0073e6;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
-  }
-  
-  .ebook {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e8f4ff;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #0073e6;
-    border-radius: 5px;
-  }
-  
-  .ebook a {
-    color: #0073e6;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .ebook a:hover {
-    text-decoration: underline;
-  }
-  
-  #donate ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #donate li {
-    margin-bottom: 10px;
-  }
-  
-  #social-media .social-links {
-    display: flex;
-    gap: 10px;
-  }
-  
-  #social-media .social-links a img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Fundo escuro */
+  color: #32a852; /* Verde sutil */
+}
+
+header {
+  background-color: #1f1f1f;
+  color: #32a852;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #32a852;
+  padding-bottom: 5px;
+}
+
+.ebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #32a852;
+  border-radius: 5px;
+}
+
+.ebook a {
+  color: #32a852;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.ebook a:hover {
+  background-color: #32a852;
+  color: #121212;
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+#donate ul {
+  list-style: none;
+  padding: 0;
+}
+
+#donate li {
+  margin-bottom: 10px;
+}
+
+#social-media .social-links {
+  display: flex;
+  gap: 10px;
+}
+
+#social-media .social-links a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#social-media .social-links a img:hover {
+  transform: scale(1.2) rotate(5deg);
+  filter: brightness(1.5);
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #32a852;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
