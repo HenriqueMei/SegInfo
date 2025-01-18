@@ -24,11 +24,13 @@ main {
 
 section {
   margin-bottom: 40px;
+  text-align: center; /* Centralizar conteúdo das seções */
 }
 
 h2 {
   border-bottom: 2px solid #32a852;
   padding-bottom: 5px;
+  display: inline-block; /* Centralizar o título */
 }
 
 .ebook {
@@ -69,6 +71,10 @@ h2 {
   text-decoration: none;
 }
 
+#donate {
+  margin-top: 40px;
+}
+
 #donate ul {
   list-style: none;
   padding: 0;
@@ -80,7 +86,9 @@ h2 {
 
 #social-media .social-links {
   display: flex;
+  justify-content: center; /* Centralizar ícones de redes sociais */
   gap: 10px;
+  margin-bottom: 20px; /* Espaçamento entre redes sociais e outras seções */
 }
 
 #social-media .social-links a img {
